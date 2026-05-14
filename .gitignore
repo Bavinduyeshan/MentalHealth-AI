@@ -1,0 +1,71 @@
+# =========================
+# Dependencies
+# =========================
+node_modules/
+**/node_modules/
+
+# =========================
+# Build outputs
+# =========================
+build/
+dist/
+
+# =========================
+# Coverage
+# =========================
+coverage/
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# Environment variables
+# =========================
+.env
+**/.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Keep example env file
+!.env.example
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+
+# =========================
+# IDE / Editor
+# =========================
+.idea/
+.vscode/
+
+# =========================
+# Python (ML_Project)
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# ML models / artifacts (optional but recommended)
+*.h5
+*.pkl
+*.pt
+*.model
+
+# =========================
+# Git misc
+# =========================
+.gitignore~
