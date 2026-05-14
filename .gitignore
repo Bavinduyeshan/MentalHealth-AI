@@ -60,10 +60,7 @@ env/
 .venv/
 
 # ML models / artifacts (optional but recommended)
-*.h5
-*.pkl
-*.pt
-*.model
+
 
 # =========================
 # Git misc
